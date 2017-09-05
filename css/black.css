@@ -1,0 +1,143 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+}
+
+main {
+	background-image: url("download.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+	margin-left: 200px;
+	background-repeat: no-repeat;
+}
+
+.labelhead {
+	color: white;
+	margin: 20px;
+	line-height: 80px;
+}
+h1	{
+	margin-top: 20px;
+	text-align: center;
+	color: darkcyan;
+	padding: 20px;
+	font-size: 2.5em;
+}
+
+nav {
+	background-color: black;
+	height: 100%;
+	width: 200px;
+	position: fixed;
+}
+
+ul {
+	width: 140px;
+	margin: 0 auto;
+}
+
+ul > li {
+	list-style: none;
+	margin-bottom: 2px;
+	line-height: 48px;
+	text-align: center;
+	margin-top: 2px;
+}
+
+ul > li > a {
+	text-decoration: none;
+	color: darkgrey;
+	font-size: 1.2em;
+}
+
+h2	{
+	color: darkgrey;
+	margin-bottom: 15px;
+}
+
+p {
+	color: darkgrey;
+	margin: 20px;
+}
+
+.border {
+	background-color: grey;
+	padding: 20px;
+	width: 75%;
+	clear: both;
+	margin: 20px;
+	background: rgba(0, 0, 0, 0.6);
+	overflow: hidden;
+}
+
+.searchbar {
+	float: right;
+	padding: 15px;
+	margin: 35px;
+	
+}
+
+.image {
+	background-color: grey;
+	opacity: 0.8;
+	height: 120px;
+	width: 180px;
+	border: 1px solid white;
+	margin: 10px;
+	float: left;
+}
+
+i {
+	color: white;
+}
+
+strong {
+	color: white;
+	line-height: 30px;
+}
+
+.dcyan {
+	color: darkcyan;
+}
+
+.readmore {
+	float: right;
+	padding: 2px;
+}
+
+ul > a > li {
+	text-decoration: none;
+	color: darkgrey;
+	font-size: 1.2em;
+}
+
+ul > a {
+	list-style: none;
+	margin-bottom: 2px;
+	line-height: 48px;
+	text-align: center;
+	margin-top: 2px;
+}
+
+a {
+	text-decoration-line: none;
+}
+
+li:hover {
+	background: rgba(204, 204, 204, 0.4);
+	color: darkcyan;
+}
+
+small	{
+	color: grey;
+}
+
+footer {
+	height: 50px;
+	text-align: center;
+}

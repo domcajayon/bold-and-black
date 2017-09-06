@@ -170,6 +170,7 @@ h3 ~ ul > .hove {
 	top: 90px;
 	left: 925px;
 	margin: 10px;
+	/*width: 25%;*/
 }
 
 h4 {
@@ -205,3 +206,4 @@ select	{
 	width: 290px;
 	margin: 10px;
 }
+
